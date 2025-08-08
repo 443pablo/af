@@ -20,5 +20,8 @@
   },
   "devDependencies": {
     "esbuild": "^0.25.8"
+  },
+  "dependencies": {
+    "open": "^10.2.0"
   }
 }
