@@ -1,0 +1,24 @@
+{
+  "name": "af",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/443pablo/af#readme",
+  "bugs": {
+    "url": "https://github.com/443pablo/af/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/443pablo/af.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg src/index.js --o dist/af --targets node18-linux-x64,node18-macos-x64,node18-win-x64"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.8"
+  }
+}
